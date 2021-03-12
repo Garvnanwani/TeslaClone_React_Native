@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native'
+import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
   carContainer: {
@@ -28,6 +28,12 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     position: 'absolute',
   },
+
+  buttonscontainer: {
+    position: 'absolute',
+    bottom: 50,
+    width: '100%',
+  }
 })
 
 export default styles

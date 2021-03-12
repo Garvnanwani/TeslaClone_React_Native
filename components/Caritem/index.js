@@ -14,7 +14,20 @@ const CarItem = (props) => {
         <Text style={styles.subtitle}>Starting at $69,500</Text>
       </View>
 
-      <StyledButton />
+      <StyledButton
+        type="primary"
+        content="custom order"
+        onPress={() => {
+          console.warn('custom order pressed')
+        }}
+      />
+      <StyledButton
+        type="secondary"
+        content="Existing Inverntory"
+        onPress={() => {
+          console.warn('inventory pressed')
+        }}
+      />
     </View>
   )
 }
